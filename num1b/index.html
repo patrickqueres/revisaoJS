@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+	<title>Volume da Piscina</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=STYLESHEET href="styles/stylesheets.css" type="text/css">
+</head>
+<body>
+	<div id="site">
+
+		<div id="header">
+			
+			<div id="logo">
+				<h1 id="txtemblema">Volume da Piscina</h1>
+				
+			</div>
+			<div id="emblema">
+				
+			</div>
+			
+		</div>
+		<br>	
+		
+		<div id="conteudo"><!-- abrimos a div conteudo -->
+
+			<div id="conteudo-left" ><center>
+				<br><br><br><br><br><br><br><br><br><br>
+				<form action="/action_page.php" name="formMEDIA" id="idMEDIA">
+
+					<label id="txtemblema">Comprimento: </label>
+					<input type="text" name="nota1" value="0" id="comprimento"><br>
+					<label id="txtemblema">Largura: </label>
+					<input type="text" name="nota2" value="0" id="largura"><br>
+					<label id="txtemblema">Altura: </label>
+					<input type="text" name="nota3" value="0" id="altura"><br>
+					<br><br>
+				</center>
+			</form>
+			
+		</div>
+		<div id="conteudo-right">
+			<br><br><br><br><br><br><br>
+			<h3 id="titulo">Resultado:</h1> <br>
+				<center>
+					<input type="text" name="resultado" id="resultado"><br>
+					<button onClick="calculevolume()">Calcular</button>
+				</center>
+				
+				
+				<p id="texto">
+				</p>
+				
+				
+				
+			</div>
+
+		</div><!-- aqui fechamos a div conteudo -->
+		
+		<br>
+		<div id="footer">
+			<p id="txtfooter">Desenvolvido por Patrick</p>
+		</div>
+
+	</div>
+	<script src="meuscript.js">
+		
+		
+	</script>
+	
+	
+</body>
+</html>
